@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Padooo - Sugerencias</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="padooo,valoteca,habitos,niños,kids,positivo,conducta,recompensa,tarea,objetivo,estrella" />
+    <meta name="author" content="S360 Incubadora de Negocios UPAO" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Padooo - Sugerencias" />
+    <meta property="og:image" content="http://padooo.com/image/padooo.png" />
+    <meta property="og:url" content="http://www.padooo.com" />
+    <meta property="og:site_name" content="Padooo.com" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:title" content="Padooo" />
+    <meta name="twitter:image" content="http://padooo.com/image/padooo.png" />
+    <meta name="twitter:url" content="http://www.padooo.com" />
+    <meta name="twitter:card" content="" />
+
+    <link rel="icon" href="../image/favicon-min.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89579602-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-89579602-3');
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-custom navbar-fixed-top" data-spy="affix" data-offset-top="70">
+            <div class="container">
+                <div class="row">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand page-scroll logo-light" href="/">
+                            <img alt="" src="../image/logo_loader-min.png" style="width:240px;">
+                        </a>
+                        <a class="navbar-brand page-scroll logo-clr" href="/">
+                            <img alt="" src="../image/logo_loader-min.png" style="width:240px;">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right menu">
+                            <li>
+                                <a class="active" href="../#welcome">Inicio</a>
+                            </li>
+                            <li>
+                                <a class="active" href="../#download">Descarga</a>
+                            </li>
+                            <li>
+                                <a class="active" href="http://blog.padooo.com/">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+            </div>
+        </nav>
+        <!-- End navbar -->
+    </header>
+    <!-- End header -->
+
+    <section id="chores">
+        <div class="container">
+            <div class="sec-pad">
+                <div class="section-text text-center">
+                    <h1>Descubre</h1>
+                    <p>Las tareas y recompensas adecuadas para tu hijo según su edad y entorno</p>
+                </div>
+
+                <div class="sub-input">
+                    <form class="custom-form subs-form">
+                        <div class="col-sm-4 col-sm-offset-1">
+                            <div class="form-group">
+                                <select class="form-control sm-form-control" id="age" style="-webkit-appearance:menulist;">
+                                    <option value="" disabled selected>Edad</option>
+                                    <option value="2-3">2-3 años</option>
+                                    <option value="2-3">4-5 años</option>
+                                    <option value="2-3">6-7 años</option>
+                                    <option value="2-3">8-9 años</option>
+                                    <option value="2-3">10-12 años</option>
+                                    <option value="2-3">13-14 años</option>
+                                    <option value="2-3">14-15 años</option>
+                                    <option value="2-3">16-17 años</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <select class="form-control sm-form-control" id="category" style="-webkit-appearance:menulist;">
+                                    <option value="" disabled selected>Categoría</option>
+                                    <option value="comedor">Comedor</option>
+                                    <option value="cocina">Cocina</option>
+                                    <option value="mascotas">Mascota</option>
+                                    <option value="abuelos">Abuelos</option>
+                                    <option value="dormitorio">Dormitorio</option>
+                                    <option value="dormitorio">Aseo</option>
+                                    <option value="dormitorio">Colegio</option>
+                                    <option value="dormitorio">Orden</option>
+                                    <option value="dormitorio">Extra</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <button type="button" class="btn btn-primary" id="consumeApi">Buscar tareas</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer  -->
+    <footer class="footer-wrapper bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="social-holder">
+                    <a href="https://www.facebook.com/SomosPadooo/" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="copyright">
+                    2018 COPYRIGHT
+                    <strong>PADOOO</strong>. ALL RIGHTS RESERVED
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/validator.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="choreServices.js"></script>
+</body>
+
+</html>
